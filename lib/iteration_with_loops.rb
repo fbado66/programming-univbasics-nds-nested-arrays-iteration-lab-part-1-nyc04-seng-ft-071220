@@ -10,7 +10,7 @@ def find_even_values(src)
   row = 0 
     while row < src.length do 
       index = 0
-        while index < src[row].legth do 
+        while index < src[row].length do 
           if src[row][index] % 2 == 0
             p src[row][index]
           end
